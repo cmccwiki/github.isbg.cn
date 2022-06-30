@@ -1,4 +1,4 @@
-# github.github.io
+github.isbg.cn
 
 测试结果
 
