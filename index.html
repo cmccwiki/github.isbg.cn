@@ -1,70 +1,19 @@
-[TOC]
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=renderer content=webkit><meta http-equiv=X-UA-Compatible content=edge><title>wiki.isbg.cn</title><meta name=keywords content=""><meta name=description content=本网站基于开源版showdoc搭建，仅供私人使用。如需访问showdoc官网，请在搜索引擎里搜索showdoc字样或者直接访问showdoc.com.cn><script type=text/javascript>var Wwidth = window.innerWidth ;
+    window.addEventListener('resize', function() {
+      ///宽度变化大于50像素的时候刷新整个窗口以适应新宽度
+      if ( Math.abs(Wwidth - window.innerWidth) > 50 ) {
+          //如果不在编辑页面，则在窗口变化后刷新窗口以适应宽度
+          if(window.location.href.indexOf("/edit") === -1){
+            window.location.reload();
+          }
+      };
 
-
-## 一、光猫登陆：
-
- 浏览器输入：192.168.1.1 
-
-
-超级用户登录：
-
-用户名：CMCCAdmin
-
-密码：aDm8H%MdA
-
-##  二、上网模式修改
-
-（规范为路由模式，如没有特殊要求，请勿随意更改）**
-
-路由模式改桥接模式
-
-登陆到光猫页面—>网络—>选中41VLAN，然后拉到底部，点击“删除”
-
-![](http://wiki.isbg.cn/server/index.php?s=/api/attachment/visitFile/sign/5b86214b82eec84880835f819362e153)
-
-
-
-先选择新建，点击“模式”处的下拉框，选中“桥模式”：
-
-{{:1.光猫:gm220s:pasted:20210701-184629.png}}
-
-点击“业务模式”处的下拉框，选中“改写”并在“VLANID”处填写41
-
-（PPP即为路由模式，桥模式即为桥接模式）
-
-填写完，点击“创建”。
-
-桥接模式改路由模式
-
-开始的删除操作和“路由转桥接”的删除操作基本一致，具体配置如下图所示：
-
-
-##  三、无线网配置
-
-超级用户登陆：在“网络”—>WLAN网络配置—>WLAN参数配置中配置：
-
-普通用户登录：
-
-普通用户名：user
-
-密码：，默认配置密码，光猫的铭牌上。
-
-
-##  四、宽带语音配置
-
-点“应用”—>宽带电话设置中设置
-
-（移动语音注册ip：211.139.26.77（昭通））
-
-语音账号设置，具体配置如下图所示：
-
-
-## 五、关闭强弹 
-
-关闭强弹方法**:**
-
-在”网络”中找到”远程管理”,点开选择”LOID”,页面中有”一键设置已注册”,点击即可,页面显示如下图所示:
-
-
-## 六、设备恢复出厂设置
-
+    });
+    //挂在window下的全局配置
+    window.DocConfig = {
+      //"server":'http://127.0.0.1/showdoc/server/index.php?s=',
+      "server": window.location.protocol +'//'+ window.location.host + window.location.pathname+ '../server/index.php?s=',
+      //"lang" :'en'
+      "lang" :'zh-cn'
+  }</script><link href=./static/css/app.9854283a8b427bdbad3358b3c99d13bf.css rel=stylesheet></head><body class=grey-bg><div id=app></div><div style=display:none>本网站基于开源版showdoc搭建，仅供私人使用。如需访问showdoc官网，请在搜索引擎里搜索showdoc字样或者直接访问showdoc.com.cn</div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.1eb6213d11eb61d1bd46.js></script><script type=text/javascript src=./static/js/app.01674f0df057e1fed70e.js></script>
+</body></html>
